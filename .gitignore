@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables (contains secrets - never commit)
+.env
+
+# Database (auto-generated, environment-specific)
+instance/*.db
+instance/*.sqlite3
+
+# Flask-Migrate compiled cache
+migrations/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded files (user-generated content, not source code)
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
